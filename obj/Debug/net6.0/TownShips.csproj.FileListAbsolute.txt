@@ -1,0 +1,15 @@
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.csproj.AssemblyReference.cache
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.AssemblyInfoInputs.cache
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.AssemblyInfo.cs
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.csproj.CoreCompileInputs.cache
+C:\Users\cute2\my-code-dir\TownShips\bin\Debug\net6.0\TownShips.exe
+C:\Users\cute2\my-code-dir\TownShips\bin\Debug\net6.0\TownShips.deps.json
+C:\Users\cute2\my-code-dir\TownShips\bin\Debug\net6.0\TownShips.runtimeconfig.json
+C:\Users\cute2\my-code-dir\TownShips\bin\Debug\net6.0\TownShips.dll
+C:\Users\cute2\my-code-dir\TownShips\bin\Debug\net6.0\TownShips.pdb
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.dll
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\refint\TownShips.dll
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.pdb
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\TownShips.genruntimeconfig.cache
+C:\Users\cute2\my-code-dir\TownShips\obj\Debug\net6.0\ref\TownShips.dll

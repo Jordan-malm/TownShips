@@ -14,12 +14,28 @@ Console.Clear();
 Console.WriteLine("This is a picture of the map, you wont be able to see it again until later on.");
 string mapTown = File.ReadAllText("map.txt");
 Console.WriteLine(mapTown);
+Console.WriteLine("After studying the map please pless any key to continue.");
 
-//the amount of times you can use the for loop
+temp = Console.ReadKey(true).KeyChar;
+Console.Clear();
+
+//my array to say hey in different ways
+string[] hey = {
+    "Top of the morning to you"
+};
 Random rand = new Random();
-int ranLength = rand.Next(0, 100);
-
-for (int i = 0; i < ranLength; i++)
+int randHey = rand.Next(0,hey.Count());
+string TheHey = hey[randHey];
+string[] Chrch = {
+    "are you here for church?",
+    "come on in, your just in time for mass.",
+    
+};
+Random rand1 = new Random();
+int randChrch = rand1.Next(0,hey.Count());
+string TheChrch = hey[randChrch];
+int tre =0;
+while(tre ==0)
 {
     Console.Title = "Town";
 
@@ -28,25 +44,32 @@ for (int i = 0; i < ranLength; i++)
     Console.WriteLine("[1]Church");
     Console.WriteLine("[2]Cemetery");
     Console.WriteLine("[3]The fountain");
-    Console.WriteLine("[4]the shops at town square");
+    Console.WriteLine("[4]The shops at town square");
+    Console.WriteLine("[5]Exit");
     string? input = Console.ReadLine();
 
     switch (input)
     {
         case "1":
-            Church();
+            Church(TheHey, TheChrch);
             break;
         case "2":
-            //Fibonacci();
+            Cem(TheHey);
             break;
         case "3":
             {
-                //number1_20();
+              Foun();
                 break;
             }
         case "4":
             {
-                //tre++;
+                
+                Shop();
+                break;
+            }
+            case "5":
+            {
+                tre++;
 
                 break;
             }
@@ -55,8 +78,25 @@ for (int i = 0; i < ranLength; i++)
 
     }
 }
-static void Church()
+
+
+
+
+static void Church(string TheHey, string TheChrch)
 {
-    
+  
 }
 
+static void Cem(string TheHey)
+{
+
+}
+
+static void Foun()
+{
+
+}
+static void Shop()
+{
+
+}
